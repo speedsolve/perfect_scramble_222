@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class Scramble:
 
     # キューブを定義する

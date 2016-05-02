@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
+
 if __name__ == "__main__":
 
-    from pprint import pprint
     from scramble import Scramble
     from solver import Solver
     from check import Check
