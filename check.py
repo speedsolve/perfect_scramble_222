@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
+from pprint import pprint
 
 class Check:
 
     count = 0;
     perfect = 0;
 
-    def check(self, s):
+    def check(self, s, scramble):
 
         all_faces = [s.u_face, s.f_face, s.r_face, s.b_face, s.l_face, s.d_face]
 
@@ -15,6 +16,7 @@ class Check:
 
         if result == 0:
             self.perfect += 1;
+            pprint(scramble)
 
         # 件数インクリメント
         self.count += 1;

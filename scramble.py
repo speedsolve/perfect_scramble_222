@@ -10,6 +10,15 @@ class Scramble:
     l_face = ["o", "o", "o", "o"]
     d_face = ["d", "d", "d", "d"]
 
+    def __init__(self):
+
+        self.u_face = ["w", "w", "w", "w"]
+        self.f_face = ["g", "g", "g", "g"]
+        self.r_face = ["r", "r", "r", "r"]
+        self.b_face = ["y", "y", "y", "y"]
+        self.l_face = ["o", "o", "o", "o"]
+        self.d_face = ["d", "d", "d", "d"]
+
     def move_u(self):
 
         tmp_u_face = self.u_face[:]

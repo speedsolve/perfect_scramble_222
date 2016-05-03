@@ -6,11 +6,11 @@ if __name__ == "__main__":
     from solver import Solver
     from check import Check
 
-    scramble = Scramble()
     s = Solver()
     c = Check()
 
     for line in open('./scramble.txt', 'r'):
 
+        scramble = Scramble()
         s.move(line.split(), scramble)
-        c.check(scramble);
+        c.check(scramble, line)
