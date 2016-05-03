@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 class Solver:
 
     def move(self, strings, scramble):

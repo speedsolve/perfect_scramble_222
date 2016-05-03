@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from pprint import pprint
+
 
 class Check:
 
@@ -16,12 +16,12 @@ class Check:
 
         if result == 0:
             self.perfect += 1;
-            pprint(scramble)
+            print(scramble)
 
         # 件数インクリメント
         self.count += 1;
 
-        print("current: " + "perfect: " + str(self.perfect) + " all: " + str(self.count));
+        #print("current: " + "perfect: " + str(self.perfect) + " all: " + str(self.count));
 
     def validate(self, face):
 
